@@ -1,6 +1,5 @@
 # Network Port Scanner
-
-A beginner-friendly Python cybersecurity project that checks TCP ports on a host and reports which ports are open.
+checks TCP ports on a host and reports which ports are open.
 
 ## Features
 
@@ -37,42 +36,7 @@ Scan completed.
 Open ports: 22, 80
 ```
 
-## How It Works
 
-```text
-Enter Host/IP
-      |
-      v
-Select Port Range
-      |
-      v
-Create TCP Socket
-      |
-      v
-Try Connection
-      |
-   +--+--+
-   |     |
-Success Failure
-   |     |
- OPEN  CLOSED
-   |
-   v
-Display Results
-```
 
-## Resume Description
 
-**Network Port Scanner | Python**
 
-Developed a Python-based network port scanner to identify open TCP ports on a specified host. Implemented socket programming and connection handling to test ports and determine their availability. Added configurable port ranges and exception handling to perform basic network reconnaissance in a controlled environment.
-
-**Technologies:** Python, Socket Programming, TCP/IP, Exception Handling
-
-## Interview Explanation
-
-"I developed a Network Port Scanner using Python's socket library. The user provides a host and port range. The program attempts to establish a TCP connection with each port. If the connection succeeds, the port is reported as open. This project helped me understand TCP connections, socket programming, and basic network reconnaissance."
-
-## Safety
-
-Use this project only on systems you own or have explicit permission to test. For learning, `127.0.0.1` is a safe local target.
